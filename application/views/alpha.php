@@ -1,3 +1,4 @@
+<!-- The alpha page view. -->
 <div class="row">
     <h2>Baby Steps</h2>
 

@@ -1,18 +1,22 @@
 <?php
+/* The controller to handle login and logout. */
 class Auth extends Application 
 {
+    /* The default constructor for the Auth class. */
 	function __construct()
 	{
 		parent::__construct();
 		$this->load->helper('url');
 	}
 
+    /* The default controller method. */
 	function index() 
 	{
 		$this->data['pagebody'] = 'login';
 		$this->render();
 	}
 
+    /* The function to handle when the user selects the submit button. */
 	function submit() 
 	{
 		$key = $_POST['userid'];
@@ -27,6 +31,7 @@ class Auth extends Application
 		redirect('/');
 	}
 
+    /* The function to handle when the user selects the logout button. */
 	function logout() 
 	{
 	  $this->session->sess_destroy();
