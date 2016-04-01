@@ -1,3 +1,4 @@
+<!-- The Gamma page view. -->
 <div class="row">
     <h2>Super Secret Stuff</h2>
 
