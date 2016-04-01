@@ -1,3 +1,4 @@
+<!-- The Beta page view. -->
 <div class="row">
     <h2>Will They Learn?</h2>
 

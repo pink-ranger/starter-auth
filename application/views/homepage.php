@@ -1,3 +1,4 @@
+<!-- The homepage view. -->
 <div class="row">
     <h2>Home Sweet Home</h2>
 

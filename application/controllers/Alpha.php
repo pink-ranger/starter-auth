@@ -1,23 +1,17 @@
 <?php
 
-/**
+/*
  * Our public content. 
- * 
- * controllers/Welcome.php
- *
- * ------------------------------------------------------------------------
+ * Class to provide access to the Alpha page. 
  */
 class Alpha extends Application {
-
+    /* The default constructor for the Alpha class. */
 	function __construct()
 	{
 		parent::__construct();
 	}
 
-	//-------------------------------------------------------------
-	//  Stuff for everyone
-	//-------------------------------------------------------------
-
+	/* Stuff for everyone. */
 	function index()
 	{
 		$this->data['pagebody'] = 'alpha';
